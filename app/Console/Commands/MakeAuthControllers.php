@@ -46,7 +46,6 @@ class MakeAuthControllers extends Command
             app_path("Http/Controllers/Auth/RegisterController.php"),
         ];
 
-        dd($paths);
         $codes = [
             '<?php
 
